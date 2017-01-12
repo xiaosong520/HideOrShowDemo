@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="左"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="右"
+            android:layout_marginLeft="0.8dp"
+            android:textColor="@android:color/white"/>
+
+</LinearLayout>
